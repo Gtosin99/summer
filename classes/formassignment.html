@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Assignment</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body, html {
+      background-color: black;
+    }
+
+    div {
+      position: absolute;
+      background-color: white;
+      width: 40%;
+      left: 50%;
+      margin-top: 20px;
+      transform: translateX(-50%);
+      padding: 15px;
+    }
+
+    h2:nth-of-type(2) {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    h2:nth-of-type(1) {
+      margin-bottom: 0;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    h3:nth-of-type(1) {
+      font-size: 0.7rem;
+      text-decoration: underline;
+      text-align: center;
+      font-style: italic;
+    }
+
+    h3 {
+      font-size: 0.9rem;
+      text-decoration: underline;
+      text-align: left;
+    }
+
+    input {
+      border: none;
+      border-bottom: 1px solid black;
+      background: none;
+      outline: none;
+      padding: 0;
+      margin-bottom: 10px;
+      width: 15%;
+      font-size: 1rem;
+    }
+
+    input:nth-of-type(1) {
+      width: 20%;
+    }
+
+    input:nth-of-type(4) {
+      width: 25%;
+    }
+
+    input:nth-of-type(5) {
+      width: 10%;
+    }
+
+    input:nth-of-type(6) {
+      width: 10%;
+    }
+
+    input:nth-of-type(7) {
+      width: 5%;
+    }
+
+    input:nth-of-type(8) {
+      width: 71%;
+    }
+
+    input:nth-of-type(2) {
+      width: 17%;
+    }
+
+    input:nth-of-type(3) {
+      width: 16%;
+    }
+
+    input:nth-of-type(9) {
+      width: 20%;
+    }
+
+    input:nth-of-type(10) {
+      width: 18%;
+    }
+
+    input:nth-of-type(11) {
+      width: 14%;
+    }
+
+    input:nth-of-type(12) {
+      width: 21%;
+    }
+
+    input:nth-of-type(13) {
+      width: 15%;
+    }
+
+    input:nth-of-type(14) {
+      width: 25%;
+    }
+
+    input:nth-of-type(15) {
+      width: 22%;
+    }
+
+    input:nth-of-type(16) {
+      width: 56%;
+    }
+
+    input:nth-of-type(17) {
+      width: 33%;
+    }
+
+    input:nth-of-type(18) {
+      width: 33%;
+    }
+
+    input:nth-of-type(19) {
+      width: 70%;
+    }
+
+    input:nth-of-type(20) {
+      width: 34%;
+    }
+
+    input:nth-of-type(21) {
+      width: 21%;
+    }
+
+    input:nth-of-type(22) {
+      width: 25%;
+    }
+
+    input:nth-of-type(23) {
+      width: 22%;
+    }
+
+    input:nth-of-type(24) {
+      width: 56%;
+    }
+
+    input:nth-of-type(25) {
+      width: 33%;
+    }
+
+    input:nth-of-type(26) {
+      width: 33%;
+    }
+
+    input:nth-of-type(27) {
+      width: 70%;
+    }
+
+    input:nth-of-type(28) {
+      width: 34%;
+    }
+
+    input:nth-of-type(29) {
+      width: 21%;
+    }
+
+    input:nth-of-type(30) {
+      width: 50%;
+    }
+
+    input:nth-of-type(31) {
+      width: 59%;
+    }
+
+    ::placeholder {
+      font-size: 0.8rem;
+      font-style: italic;
+    }
+
+    form p {
+      margin-top: 0;
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+
+    .no_underline {
+      text-decoration: none;
+    }
+
+    input[type="checkbox"] {
+      margin: 0;
+      padding: 0;
+      border: none;
+      width: 15px;
+      height: 15px;
+      float: left;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h2>ATTLEBORO HIGH SCHOOL</h2>
+    <h2>New Student Registration Form</h2>
+    <h3>PLEASE PRINT LEGALLY</h3>
+    <h3>Student Information:</h3>
+
+    <form>
+      <label for="lastName">Student's Last Name:</label>
+      <input type="text" id="lastName" name="lastName">
+
+      <label for="first">First:</label>
+      <input type="text" id="first" name="first">
+
+      <label for="middle">Middle:</label>
+      <input type="text" id="middle" name="middle">
+
+      <br>
+
+      <label for="homeAddress">Home Address:</label>
+      <input type="text" id="homeAddress" name="homeAddress">
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city">
+
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state">
+
+      <label for="zipCode">Zip Code:</label>
+      <input type="text" id="zipCode" name="zipCode">
+
+      <br>
+
+      <label for="email">Student email address:</label>
+      <input type="email" id="email" name="email">
+
+      <br>
+
+      <label for="homePhone">Home Phone:</label>
+      <input type="tel" id="homePhone" name="homePhone">
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob">
+
+      <label for="gender">Gender:</label>
+      <input type="text" id="gender" name="gender">
+
+      <br>
+
+      <label for="placeOfBirth">Place of Birth /City & State:</label>
+      <input type="text" id="placeOfBirth" name="placeOfBirth">
+
+      <label for="country">Country (If not USA):</label>
+      <input type="text" id="country" name="country">
+
+      <br>
+
+      <h3 style="font-size: 0.9rem; text-decoration: underline; text-align: left; font-style: normal;">Parent/Guardian Information:</h3>
+
+      <label for="motherLastName">Mother/Guardian Last Name:</label>
+      <input class="input1" type="text" id="motherLastName" name="motherLastName">
+
+      <label for="firstName">First Name:</label>
+      <input class="input1" type="text" id="firstName" name="firstName">
+
+      <br>
+
+      <label for="motherAddress">Address (if different from student):</label>
+      <input class="input1" type="text" id="motherAddress" name="motherAddress" placeholder="Please indicate City, State and Zip Code">
+
+      <br>
+
+      <label for="motherHomePhone">Home Phone:</label>
+      <input class="input1" type="tel" id="motherHomePhone" name="motherHomePhone">
+
+      <label for="cellPhone">Cell Phone:</label>
+      <input class="input1" type="tel" id="cellPhone" name="cellPhone">
+
+      <br>
+
+      <label for="motherEmail">Mother's email address:</label>
+      <input class="input1" type="email" id="motherEmail" name="motherEmail">
+
+      <br>
+
+      <label for="motherEmployment">Place of Employment:</label>
+      <input class="input1" type="text" id="motherEmployment" name="motherEmployment">
+
+      <label for="workPhone">Work Phone:</label>
+      <input class="input1" type="tel" id="workPhone" name="workPhone">
+
+      <br><br>
+
+      <label for="fatherLastName">Father/Guardian Last Name:</label>
+      <input class="input1" type="text" id="fatherLastName" name="fatherLastName">
+
+      <label for="firstName2">First Name:</label>
+      <input class="input1" type="text" id="firstName2" name="firstName2">
+
+      <br>
+
+      <label for="fatherAddress">Address (if different from student):</label>
+      <input class="input1" type="text" id="fatherAddress" name="fatherAddress" placeholder="Please indicate City, State and Zip Code">
+
+      <br>
+
+      <label for="fatherHomePhone">Home Phone:</label>
+      <input class="input1" type="tel" id="fatherHomePhone" name="fatherHomePhone">
+
+      <label for="cellPhone2">Cell Phone:</label>
+      <input class="input1" type="tel" id="cellPhone2" name="cellPhone2">
+
+      <br>
+
+      <label for="fatherEmail">Father's email address:</label>
+      <input class="input1" type="email" id="fatherEmail" name="fatherEmail">
+
+      <br>
+
+      <label for="fatherEmployment">Place of Employment:</label>
+      <input class="input1" type="text" id="fatherEmployment" name="fatherEmployment">
+
+      <label for="workPhone2">Work Phone:</label>
+      <input class="input1" type="tel" id="workPhone2" name="workPhone2">
+
+      <br>
+
+      <h3 style="font-size: 0.9rem; text-decoration: underline; text-align: left; font-style: normal; margin-bottom: 0;">Automated Message Prefrences:</h3>
+
+      <p>This pertains to both school closures and emergency messages during the school</p>
+
+      <br>
+
+      <label for="phone-number">Best Phone Number for automated call:</label>
+      <input type="tel" id="phone-number" name="phone-number">
+
+      <br>
+
+      <label for="email">Best email for automated email:</label>
+      <input type="email" id="email" name="email">
+
+      <h3 style="font-size: 0.9rem; text-decoration: underline; text-align: left; font-style: normal; margin-bottom: 0; display: inline;">Military Family Status:<span    
+          class="no-undeline">Please Check the appropriate box if this is a child of:</span></h3>
+
+      <br>
+
+      <input type="checkbox" name="service_status" value="active_duty">
+      <label style="margin-left: 10px;"> An active duty member of the Uniformed Services, National Guard or Reserves on active duty orders</label>
+
+      <br><br>
+
+      <input type="checkbox" name="service_status" value="medically_discharged">
+      <label style="margin-left: 10px;"> A member or veteran medically discharged or retired within one year </label>
+
+      <br><br>
+
+      <input type="checkbox" name="service_status" value="died_on_active_duty">
+      <label style="margin-left: 10px;"> A member of the Uniformed Services, National Guard or Reserves who died on active duty </label>
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>

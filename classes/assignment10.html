@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head><title>Get Started</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Mingzat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+<style>
+*{
+  margin:0;
+  padding:0;
+ }
+ 
+body{
+ height:100vh;
+ background-color:#FBFBFB;
+ display:flex;
+ align-items:center;
+ justify-content:center; 
+}
+
+.main{
+ background:linear-gradient(to bottom,#F6E3E5,#EDE2E8);
+ width:900px;
+ height:600px;
+  box-shadow:5px 5px 15px rgba(0,0,0,0.2);
+}
+
+h2 , p , h3{
+ text-align:center;
+}
+h2{
+ margin-top:70px;
+ font-family: "Poppins", sans-serif;
+ font-size:2rem;
+ 
+}
+
+p{
+ margin-top:5px; 
+}
+
+.sub{
+ position:absolute;
+ width:400px;
+ background-color:#FBFBFB;
+ top:60%;
+ left:50%;
+ transform:translate(-50%,-50%);
+ border-radius:20px;
+}
+
+h3{
+  margin-top:40px; 
+  font-family: "Poppins", sans-serif;
+}
+
+input,textarea{
+  background-color:#F0F5F9;
+  margin:0 15px 15px 10px;
+  border-radius:5px;
+  color:#C8CDD3;
+  border:none;
+  width:370px;
+ 
+}
+input{
+ height:30px; 
+}
+label{
+ margin-left:10px;
+}
+
+::placeholder {
+      font-size: 0.8rem;
+      color:#C8CDD3;
+    }
+textarea{
+   font-size:0.8rem
+}
+
+input[type="checkbox"] {
+      margin-left:15px;
+      border:none;
+      width:10px;
+      height:10px;
+      margin-right:0px;
+    }
+.flex-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit{
+  height:30px;
+  width:370px;
+  margin:10 15px 15px 50px;
+  background-color:#496782;
+  color:#C8CDD3;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  padding:10px;
+}
+
+
+</style>
+</head>
+<body>
+ <div class="main">
+  <h2>Get Started</h2>
+  <p>Let's make something cool</p>
+  <div class="sub">
+   <h3>Get started with a free quotation</h3>
+  <form>
+  <div class="flex-field">
+    <label>Name</label>
+    <input type="text" id="name" name="name" placeholder=" Enter your name">
+  </div>
+  <div class="flex-field">
+    <label>Email</label>
+    <input type="email" id="email" name="email" placeholder=" Enter a valid email address">
+  </div>
+  <div class="flex-field">
+    <label>Message</label>
+    <textarea id="mesage" name="mesage" rows="6" cols="30"> Enter your message here
+    </textarea>
+  </div>
+  <div>
+    <input type="checkbox" id="tos" name="tos" value="Tos"> 
+    <label style="margin-left:0px; font-size:12px;">I accept the Terms of Service</label>
+  </div>
+   <input class="submit" type="submit" value="Submit your request">
+</form>
+  </div>
+ </div>
+</body>
+</html>
